@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tourisme</title>
+	<!-- Latest compiled and minified CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand" >
+					<img src="images/logo.png" height="50px" width="60px">
+				</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				
+				
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#main-image">Accueil</a></li>
+					<li><a href="#destinations">Destinations</a></li>
+					<li><a href="#offres">Offres</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="main-image" class="container-fluid">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/cover.jpg" height="721px">
+					</div>
+					<div class="item">
+						<img src="images/cover1.jpg" height="721px">
+					</div>
+					<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+		</div>
+
+		<div class="container">
+			<div class="search-dest">
+				<form class="form-inline">
+					<div class="row">
+						<div class="form-group col-md-4">
+							<div class="icon">
+								<span class="glyphicon glyphicon-plane"></span>
+							</div>
+							<input type="text" name="dsecription" class="form-control" placeholder="Entrez votre destination">
+						</div>
+						<div class="form-group col-md-4">
+							<div class="icon">
+								<span class="glyphicon glyphicon-calendar"></span>
+							</div>
+							<input type="text" name="description" class="form-control" placeholder="Entrez votre date">
+						</div>
+						<button type="submit" class="button-1 col-md-4">Trouver</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="destinations">
+		<div class="container-fluid">
+			<div class="heading">
+				<h1>Destinations</h1>
+				<div class="row">
+					<p>Découvrez, Explorer tous les sites merveilleux du monde : Musée, Lacs, Monuments</p>
+				</div>
+			</div>
+			<div class="blue-divider"></div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site1.jpg" alt="Paris Destination">
+						<div class="title">
+							<h3>Paris</h3>
+						</div>
+					</a>	
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site2.jpg" alt="Brazil Destination">
+						<div class="title">
+							<h3>Brazil</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site3.jpg" alt="Inde Destination">
+						<div class="title">
+							<h3>Inde</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site4.jpg">
+						<div class="title">
+							<h3>Copenhague</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site5.jpg">
+						<div class="title">
+							<h3>Tokyo</h3>
+						</div>
+					</a>	
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site6.jpg" alt="Dubai Destination">
+						<div class="title">
+							<h3>Dubai</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site7.jpg" alt="Yamoussoukro Destination">
+						<div class="title">
+							<h3>Yamoussoukro</h3>
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#" class="box" target="_blank">
+						<img src="images/site8.jpg" alt="Abidjan Destination">
+						<div class="title">
+							<h3>Istanbul</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="offres">
+		<div class="container-fluid">
+			<div class="heading">
+				<h1>Offres</h1>
+				<div class="row">
+					<p>Trouvez ici les meilleurs offres pour vos destinations de rêves à des prix incroyables</p>
+				</div>
+			</div>
+			<div class="blue-divider"></div>
+			<div class="row">				
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/7.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-8 col-xs-12">
+									<h4>Week-end à Barcelone</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">480€</p>
+								</div>
+							</div>
+							
+								<p class="info-p">Budget, Vacances - Weekend</p>
+							
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+
+							</div>
+						
+					</div>			
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/4.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-8 col-xs-12">
+									<h4>Week-end à Rome</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">680€</p>
+								</div>
+							</div>
+							
+								<p class="info-p">Budget, Vacances - Weekend</p>
+							
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+							
+								
+
+							</div>
+						
+					</div>			
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/6.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-4 col-xs-12">
+									<h4>Week-end à Sydney</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">2080€</p>
+								</div>
+							</div>
+							
+								<p class="info-p">Budget, Vacances - Weekend</p>
+							
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+						
+
+							</div>
+						
+					</div>			
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/2.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-4 col-xs-12">
+									<h4>Week-end au Japon</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">1500€</p>
+								</div>
+							</div>
+							<p class="info-p">Budget, Vacances - Weekend</p>
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+							
+
+							</div>
+						
+					</div>			
+				</div>
+			</div>
+			<br>
+			<div class="row">				
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/1.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-4 col-xs-12">
+									<h4>Week-end à New-York</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">1280€</p>
+								</div>
+							</div>
+							<div class="row">
+								<p class="info-p">Budget, Vacances - Weekend</p>
+							</div>
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+							
+								
+
+							</div>
+						
+					</div>			
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/6.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-4 col-xs-12">
+									<h4>Week-end à Berlin</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">490€</p>
+								</div>
+							</div>
+							<div class="row">
+								<p class="info-p">Budget, Vacances - Weekend</p>
+							</div>
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+
+							</div>
+						
+					</div>			
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="">
+								<div class="card-offres-img" style="background-image: url('images/site1.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-4 col-xs-12">
+									<h4>Week-end à Paris</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">450€</p>
+								</div>
+							</div>
+							<p class="info-p">Budget, Vacances - Weekend</p>
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+							
+
+							</div>
+						
+					</div>			
+				</div>
+				<div class="col-md-3 col-sm-4">
+					<div class="card-offres">
+						<figure>
+							<a href="#">
+								<div class="card-offres-img" style="background-image: url('images/3.jpg');"></div>
+							</a>
+						</figure>
+						<div class="info">
+							<div class="row">
+								<div class="col-md-8 col-sm-4 col-xs-12">
+									<h4>Week-end à Londres</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<p class="prix">650€</p>
+								</div>
+							</div>
+							<p class="info-p">Budget, Vacances - Weekend</p>
+						</div>
+						
+							<div class="rating row">
+								<div class="col-md-8 col-sm-8 col-xs-12 star-rating">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="glyphicon glyphicon-star"></span>
+								</div>
+							
+							</div>
+						
+					</div>			
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="contacts">
+		<div class="container">
+			<div class="heading">
+				<h1>Contactez-Nous</h1>
+				<p>offrez le meilleur à ceux que vous aimez et partagez les moments fabuleuxoffrez le meilleur à ceux que vous aimez et partagez les moments fabuleuxoffrez le meilleur à ceux que vous aimez et partagez les moments fabuleuxoffrez le meilleur à ceux que vous aimez et partagez les moments fabuleuxoffrez le meilleur</p>
+			</div>
+			
+			<form class="form-inline">
+				<div class="form-group">
+					<label for="name">Nom:</label>
+					<input type="text" name="name" id="name" placeholder="Votre nom" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="name">Email:</label>
+					<input type="text" name="email" id="email" placeholder="Votre email" class="form-control">
+				</div>
+				<input type="submit" value="OK" class="button-3">
+			</form>
+		</div>
+		
+	</section>
+
+	<footer class="text-center">
+		<div class="container">
+			<a href="#main-image">
+				<span class="glyphicon glyphicon-chevron-up"></span>
+			</a>
+			<h1>Air Travel</h1>
+			<h5 class="copyright">Air Travel &copy;<script>document.write(new Date().getFullYear());</script> Maintenance | Mise en place : <a href="#" target="_blank">gbeliafabrice</a></h5>
+		</div>
+
+	
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
