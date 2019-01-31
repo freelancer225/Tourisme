@@ -204,7 +204,8 @@ navbar-header h1
 }
 #destinations a h3
 {
-	font-family: "montserrat black";
+	font-family: "montserrat";
+	font-weight:900;
 	font-size: 40px;
 	letter-spacing: -2px;
 	color: white;
@@ -268,7 +269,8 @@ navbar-header h1
 }
 .card-offres h4
 {
-	font-family: "montserrat black";
+	font-family: "montserrat";
+	font-weight:900;
 	text-align:left;
 	margin: 10px 20px;
 }
