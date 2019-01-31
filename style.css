@@ -21,7 +21,8 @@ section .heading
 
 section .heading h1
 {
-	font-family: "Montserrat black";
+	font-family: "montserrat";
+	font-weight:900;
 	font-size:55px;
 	letter-spacing: -3px;
 }
